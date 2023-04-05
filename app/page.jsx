@@ -6,7 +6,6 @@ export default async function Home() {
 	);
 
 	const res = await data.json();
-	console.log(res.results);
 
 	return (
 		<main>
